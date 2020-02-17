@@ -32,4 +32,6 @@ arquivo em versionamento
 - git add 'arquivo': torna o arquivo untracked em unmodified e modified em staged
 
 - git commit -m "'mensagem'": adicionar alteraçoes no arquivo e uma mensagem
-- git log: ver as versoes e informacoes do arquivo 
+- git log: ver as versoes e informacoes do arquivo
+-- git log --author="'nomedoautor'": mostra apenas alteracoes feitas pelo autor citado
+
