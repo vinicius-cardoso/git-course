@@ -29,5 +29,7 @@ arquivo em versionamento
 .............................................................................................
 
 - git status: reportar como esta o diretorio
-- git add 'arquivo': torna o arquivo untracked em unmodified
+- git add 'arquivo': torna o arquivo untracked em unmodified e modified em staged
+
+- git commit -m "'mensagem'" (adicionar alteraçoes no arquivo e uma mensagem)
 
