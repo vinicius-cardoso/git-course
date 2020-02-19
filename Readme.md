@@ -62,6 +62,7 @@ arquivo em versionamento
 - git remote add origin 'git@github.com:vinicius-cardoso/nomedorepositorio.git': cria arquivos a partir de um repositorio existente (via SSH)
 
 - git push -u origin master: envia todos os arquivos para o repositorio determinado / origin: pra onde vai / master: de onde vem
+-- git push origin master --tags: passa as tags pro arquivo no GitHub
 
 - git clone 'endereco' (pasta anterior, cd ..): clona um repositorio 
 
@@ -75,6 +76,9 @@ arquivo em versionamento
 -- git stash clear: limpa a stash
 
 - git config --global alias.'atalho' 'comando': cria um atalho para um comando
+
+- git tag: mostra as tags existentes
+-- git tag -a 'versao' -m 'comentario': cria uma tag da versao do arquivo 
 ............................................................................................
 
 Commit: Alteracao em um arquivo
