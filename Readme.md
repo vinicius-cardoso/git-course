@@ -79,6 +79,8 @@ arquivo em versionamento
 
 - git tag: mostra as tags existentes
 -- git tag -a 'versao' -m 'comentario': cria uma tag da versao do arquivo 
+
+- git revert 'hash': apaga as ultimas linhas mas nao apaga o commit 
 ............................................................................................
 
 Commit: Alteracao em um arquivo
