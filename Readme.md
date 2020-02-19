@@ -37,7 +37,7 @@ arquivo em versionamento
 
 - git log: ver as versoes e informacoes do arquivo
 -- git log --author="'nomedoautor'": mostra apenas alteracoes feitas pelo autor citado
--- git log --ref: mostra em forma grafica o que esta acontecendo com os branches e versoes
+-- git log --graph: mostra em forma grafica o que esta acontecendo com os branches e versoes
 
 - git shortlog: mostra em ordem alfabetica, autores(quantidade de logs) e logs
 -- git shortlog -sn: mostra so quantidade de commits e a pessoa
@@ -48,6 +48,11 @@ arquivo em versionamento
 -- git diff --name-only: mostra apenas os arquivos modificados
 
 - git checkout 'nomedoarquivo': retorna o arquivo pra antes da ultima edicao 
+-- git checkout -b 'nomedobranch': cria um branch
+-- git checkout 'nomedobranch': muda para o branch citado
+
+- git branch: mostra em qual branch voce esta
+-- git branch -D 'nomedobranch': deleta o branch 
 
 - git reset Head 'nomedoarquivo': remover o arquivo do stage
 -- git reset --soft 'hasharquivoanterior': retirar a modificacao
@@ -58,5 +63,22 @@ arquivo em versionamento
 
 - git push -u origin master: envia todos os arquivos para o repositorio determinado / origin: pra onde vai / master: de onde vem
 
--
+- git clone 'endereco' (pasta anterior, cd ..): clona um repositorio 
 
+- git merge 'nomedocommit': faz o merge
+
+- git rebase 'nomedocommit': faz o rebase
+
+............................................................................................
+
+Commit: Alteracao em um arquivo
+
+Fork: Copia um repositorio (e diferente de clone)
+
+Pull Request: Avisa a pessoa a qual voce copiou o repositorio sobre mudancas que voce fez
+
+Branch: E um ponteiro para alteracoes no arquivo 
+
+Merge: Uniao de branches atraves da criacao de um novo commit para unir commits paralelos 
+
+Rebase: Uniao de branches atraves da movimentacao de commits
