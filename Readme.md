@@ -69,6 +69,10 @@ arquivo em versionamento
 
 - git rebase 'nomedocommit': faz o rebase
 
+- git stash: cria um arquivo para salvar modificacoes
+-- git stash apply: aplica as mudancas guardadas
+-- git stash list: mostra a lista de stashes
+-- git stash clear: limpa a stash
 ............................................................................................
 
 Commit: Alteracao em um arquivo
