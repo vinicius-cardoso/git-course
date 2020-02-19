@@ -73,6 +73,8 @@ arquivo em versionamento
 -- git stash apply: aplica as mudancas guardadas
 -- git stash list: mostra a lista de stashes
 -- git stash clear: limpa a stash
+
+- git config --global alias.'atalho' 'comando': cria um atalho para um comando
 ............................................................................................
 
 Commit: Alteracao em um arquivo
