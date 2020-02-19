@@ -63,6 +63,7 @@ arquivo em versionamento
 
 - git push -u origin master: envia todos os arquivos para o repositorio determinado / origin: pra onde vai / master: de onde vem
 -- git push origin master --tags: passa as tags pro arquivo no GitHub
+-- git push origin :'tag ou branch': deleta uma tag ou branch remoto
 
 - git clone 'endereco' (pasta anterior, cd ..): clona um repositorio 
 
@@ -79,6 +80,7 @@ arquivo em versionamento
 
 - git tag: mostra as tags existentes
 -- git tag -a 'versao' -m 'comentario': cria uma tag da versao do arquivo 
+-- git tag -d 'versao': deleta a tag
 
 - git revert 'hash': apaga as ultimas linhas mas nao apaga o commit 
 ............................................................................................
