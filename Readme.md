@@ -30,7 +30,7 @@
 
 - `git add <arquivo>`: torna o arquivo 'untracked' em 'unmodified' e 'modified' em 'staged'
 
-- `git commit -m <"mensagem">`: adicionar alteraçoes no arquivo e uma mensagem
+- `git commit -m <"mensagem">`: adicionar alteraçoes no arquivo e uma mensagem<br>
   `git commit -am <"mensagem">`: mostra a ultima modificacao
 
 - `git log`: ver as versoes e informacoes do arquivo
